@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "automate-data-pipeline"
+version = "0.1.0"
+description = "Build ETL pipelines, data integration and scheduling workflows."
+authors = ["Sello Sydney Mafikeng <tebogomafikeng@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+mage-ai = {extras = ["sql"], version = "^0.9.65"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
